@@ -4,10 +4,10 @@ import requests
 import time
 
 #请填写此处字段
-USERNAME = "202113030504"
-PASSWORD = "04097114"
-FORMDATA1 = 'ismoved=0&jhfjrq=&jhfjjtgj=&jhfjhbcc=&sfxk=0&xkqq=&szgj=&szcs=&zgfxdq=0&mjry=0&csmjry=0&uid=30790&date=' #单引号
-FORMDATA2 = 'tw=2&sfcxtz=0&sfjcbh=0&sfcxzysx=0&qksm=&sfyyjc=0&jcjgqr=0&remark=&address=%E7%A6%8F%E5%BB%BA%E7%9C%81%E8%8E%86%E7%94%B0%E5%B8%82%E8%8D%94%E5%9F%8E%E5%8C%BA%E9%BB%84%E7%9F%B3%E9%95%87%E5%92%8C%E8%B0%90%E8%B7%AF%E8%8E%86%E7%94%B0%E5%B7%A5%E8%89%BA%E7%BE%8E%E6%9C%AF%E5%9F%8E&geo_api_info=%7B%22type%22%3A%22complete%22%2C%22position%22%3A%7B%22Q%22%3A25.374780815973%2C%22R%22%3A119.06514160156303%2C%22lng%22%3A119.065142%2C%22lat%22%3A25.374781%7D%2C%22location_type%22%3A%22html5%22%2C%22message%22%3A%22Get+ipLocation+failed.Get+geolocation+success.Convert+Success.Get+address+success.%22%2C%22accuracy%22%3A43%2C%22isConverted%22%3Atrue%2C%22status%22%3A1%2C%22addressComponent%22%3A%7B%22citycode%22%3A%220594%22%2C%22adcode%22%3A%22350304%22%2C%22businessAreas%22%3A%5B%5D%2C%22neighborhoodType%22%3A%22%22%2C%22neighborhood%22%3A%22%22%2C%22building%22%3A%22%22%2C%22buildingType%22%3A%22%22%2C%22street%22%3A%22%E7%8E%AF%E5%9F%8E%E4%B8%9C%E8%B7%AF%22%2C%22streetNumber%22%3A%22121%E5%8F%B7%22%2C%22country%22%3A%22%E4%B8%AD%E5%9B%BD%22%2C%22province%22%3A%22%E7%A6%8F%E5%BB%BA%E7%9C%81%22%2C%22city%22%3A%22%E8%8E%86%E7%94%B0%E5%B8%82%22%2C%22district%22%3A%22%E8%8D%94%E5%9F%8E%E5%8C%BA%22%2C%22towncode%22%3A%22350304101000%22%2C%22township%22%3A%22%E9%BB%84%E7%9F%B3%E9%95%87%22%7D%2C%22formattedAddress%22%3A%22%E7%A6%8F%E5%BB%BA%E7%9C%81%E8%8E%86%E7%94%B0%E5%B8%82%E8%8D%94%E5%9F%8E%E5%8C%BA%E9%BB%84%E7%9F%B3%E9%95%87%E5%92%8C%E8%B0%90%E8%B7%AF%E8%8E%86%E7%94%B0%E5%B7%A5%E8%89%BA%E7%BE%8E%E6%9C%AF%E5%9F%8E%22%2C%22roads%22%3A%5B%5D%2C%22crosses%22%3A%5B%5D%2C%22pois%22%3A%5B%5D%2C%22info%22%3A%22SUCCESS%22%7D&area=%E7%A6%8F%E5%BB%BA%E7%9C%81+%E8%8E%86%E7%94%B0%E5%B8%82+%E8%8D%94%E5%9F%8E%E5%8C%BA&province=%E7%A6%8F%E5%BB%BA%E7%9C%81&city=%E8%8E%86%E7%94%B0%E5%B8%82&sfzx=0&sfjcwhry=0&sfjchbry=0&sfcyglq=0&gllx=&glksrq=&jcbhlx=&jcbhrq=&bztcyy=&sftjhb=0&sftjwh=0&sfsfbh=0&xjzd=&jcwhryfs=&jchbryfs=&szsqsfybl=0&sfygtjzzfj=&gtjzzfjsj=&jcjg=&created=1647589585&jcqzrq=&sfjcqz=&sfsqhzjkk=0&sqhzjkkys=&id=5064411&gwszdd=&sfyqjzgc=&jrsfqzys=&jrsfqzfy=' #单引号
+USERNAME = "?"
+PASSWORD = "?"
+FORMDATA1 = '?' #单引号
+FORMDATA2 = '?' #单引号
 
 def print_msg(msg,level=1):
     if level is 1:
