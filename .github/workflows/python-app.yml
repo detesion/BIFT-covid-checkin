@@ -5,7 +5,7 @@ name: Python application
 
 on:
   schedule:
-    - cron: "0 2 * * *"
+    - cron: "0 0 1 * * ?"
   push:
     branches: [ main ]
   pull_request:
@@ -33,6 +33,6 @@ jobs:
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-    - name: Test with pytest
+    - name: run pi,py
       run: |
-        python pi.py
+        python3 pi.py
