@@ -139,16 +139,7 @@ def print_basic_info():
     print_msg("密码："+PASSWORD,2)
     #print_msg("POST发送的表单："+FORMDATA1+time.strftime("%Y%m%d",time.localtime())+FORMDATA2,2)
     time.sleep(2)
-    print_msg("确认开启自动进程吗：(y/n)")
-    key = input()
-    if key == "y" or key == "Y":
-        print_msg("准备开启自动打卡. . . . .")
-        time.sleep(1)
-    else:
-        print_msg("正在关闭. . . . .")
-        time.sleep(1)
-        exit(1)
-
+    
 def main_loop():
 
     RELOAD = 5
