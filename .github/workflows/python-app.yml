@@ -33,5 +33,6 @@ jobs:
        PASSWORD: ${{ secrets.PASSWORD }}
        FORMDATA2: ${{ secrets.FORMDATA2 }}
        FORMDATA1: ${{ secrets.FORMDATA1 }}
+    - name: run'
       run: |
-       python3 autocheckin.py
+       python pi.py
