@@ -5,10 +5,10 @@ import time
 import os
 
 #请填写此处字段
-USERNAME = os.environ['USERNAME']
-PASSWORD = os.environ['PASSWORD']
-FORMDATA1 = os.environ['FORMDATA1'] #单引号
-FORMDATA2 = os.environ['FORMDATA2'] #单引号
+USERNAME = eval(os.environ['USERNAME'])
+PASSWORD = eval(os.environ['PASSWORD'])
+FORMDATA1 = eval(os.environ['FORMDATA1']) #单引号
+FORMDATA2 = eval(os.environ['FORMDATA2']) #单引号
 
 def print_msg(msg,level=1):
     if level is 1:
