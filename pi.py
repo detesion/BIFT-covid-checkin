@@ -5,10 +5,10 @@ import time
 import os
 
 #请填写此处字段
-USERNAME = ${{ secrets.USERNAME }}
-PASSWORD = ${{ secrets.PASSWORD }}
-FORMDATA1 = ${{ secrets.FORMDATA1 }} #单引号
-FORMDATA2 = ${{ secrets.FORMDATA2 }} #单引号
+USERNAME = os.environ.get("USERNAME")
+PASSWORD = os.environ.get("PASSWORD")
+FORMDATA1 = os.environ.get("FORMDATA1") #单引号
+FORMDATA2 = os.environ.get("FORMDATA2") #单引号
 
 def print_msg(msg,level=1):
     if level is 1:
