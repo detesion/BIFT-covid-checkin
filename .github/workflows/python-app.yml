@@ -28,11 +28,10 @@ jobs:
         pip install flake8 pytest
         pip install requests
     - name: 'signin'
+      run: |
+       python pi.py
       env:
        USERNAME: ${{ secrets.USERNAME }}
        PASSWORD: ${{ secrets.PASSWORD }}
        FORMDATA2: ${{ secrets.FORMDATA2 }}
        FORMDATA1: ${{ secrets.FORMDATA1 }}
-    - name: 'run'
-      run: |
-       python pi.py
