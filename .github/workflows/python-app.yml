@@ -27,11 +27,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest
         pip install requests
-  - name: 'signin'
-    env:
-      USERNAME: ${{ secrets.USERNAME }}
-      PASSWORD: ${{ secrets.PASSWORD }}
-      FORMDATA2: ${{ secrets.FORMDATA2 }}
-      FORMDATA1: ${{ secrets.FORMDATA1 }}
-    run: |
-      python3 pi.py
+    - name: 'signin'
+      env:
+       USERNAME: ${{ secrets.USERNAME }}
+       PASSWORD: ${{ secrets.PASSWORD }}
+       FORMDATA2: ${{ secrets.FORMDATA2 }}
+       FORMDATA1: ${{ secrets.FORMDATA1 }}
+      run: |
+       python3 pi.py
