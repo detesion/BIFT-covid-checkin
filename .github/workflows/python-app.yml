@@ -34,4 +34,4 @@ jobs:
        FORMDATA2: ${{ secrets.FORMDATA2 }}
        FORMDATA1: ${{ secrets.FORMDATA1 }}
       run: |
-       python3 pi.py
+       python3 autocheckin.py
