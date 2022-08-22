@@ -1,14 +1,14 @@
 # coding=utf-8
-
+# 前置說明此腳本完全開源沒有任何一個後門，另外如果害怕被學校查就不要用還是老老實實的自己天天填報吧！！！！！
 import requests
 import time
 import os
 
 #请填写此处字段
-USERNAME = os.environ.get("USERNAME")
-PASSWORD = os.environ.get("PASSWORD")
-FORMDATA1 = os.environ.get("FORMDATA1") #单引号
-FORMDATA2 = os.environ.get("FORMDATA2") #单引号
+USERNAME = “USERNAME” #填寫你的學號
+PASSWORD = “PASSWORD” #填寫你的密碼，如果未重置過的話密碼是身分證後八位
+FORMDATA1 = 'FORMDATA1' #在单引号內填寫在網頁上所獲得的標頭數據前半段具體看README.me
+FORMDATA2 = 'FORMDATA2' #在单引号內填寫在網頁上所獲得的標頭數據後半段具體看README.me
 
 def print_msg(msg,level=1):
     if level is 1:
@@ -133,7 +133,7 @@ def getTime():
 def print_basic_info():
     print_msg("BIFT自动填表抗疫情脚本")
     print_msg("请在使用前先行确认，是否已经按照提示设置好Payload！",3)
-    print_msg("如果没有正确设置Payload，打卡信息可能会出错，严重的话会被北服约去喝茶！",3)
+    print_msg("如果没有正确设置Payload，打卡信息可能会出错，可能會被學校約談！",3)
     time.sleep(1)
     print_msg("下面是您的参数:")
     print_msg("用户名："+USERNAME,2)
@@ -143,7 +143,7 @@ def print_basic_info():
     
 def main_loop():
 
-    RELOAD = 5
+    RELOAD = 2
     finish_date = ''
     total_succ = 0
 
@@ -157,7 +157,7 @@ def main_loop():
                 finish_date = getTime()[0]
                 total_succ += 1
                 print_msg("今日打卡成功！累计打卡天数: "+str(total_succ))
-                print_msg("程序还在运行，会自动检测打卡")
+                print_msg("程序还在运行請不要關閉直接最小化就好了，会自动检测打卡")
             else:
                 print_msg("打卡出现问题，很快重新尝试",2)
                 continue
