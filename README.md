@@ -6,7 +6,7 @@
 
  * 接下来是食用方法 
  <br> 1、用edge浏览器或者Chrome浏览器打开疫情防控通的网页:
-[疫情防控通]([https://wx.bift.edu.cn/uc/wap/login](https://wx.bift.edu.cn/uc/wap/login?redirect=https%3A%2F%2Fwx.bift.edu.cn%2Fsite%2FapplicationSquare%2Findex%3Fsid%3D3) "快点进去呀") 
+[疫情防控通](https://wx.bift.edu.cn/uc/wap/login](https://wx.bift.edu.cn/uc/wap/login?redirect=https%3A%2F%2Fwx.bift.edu.cn%2Fsite%2FapplicationSquare%2Findex%3Fsid%3D3 "快点进去呀") 
  <br> 2、登录进去 
 
 
