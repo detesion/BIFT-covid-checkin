@@ -6,7 +6,7 @@
 
  * 接下来是食用方法 
  <br> 1、用edge浏览器或者Chrome浏览器打开疫情防控通的网页:
- >>>>>>>[疫情防控通](https://wx.bift.edu.cn/uc/wap/login "悬停显示") 
+         [疫情防控通](https://wx.bift.edu.cn/uc/wap/login "快点进去呀") 
 
 
 
