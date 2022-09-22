@@ -6,8 +6,8 @@ import requests
 #请填写此处字段
 USERNAME = "USERNAME" #密码写在双引号里
 PASSWORD = "PASSWORD" #密码写在双引号里
-FORMDATA1 = 'FORMDATA1' #写在单引号
-FORMDATA2 = 'FORMDATA2' #写在单引号
+FORMDATA1 = 'FORMDATA1' #ismoved开头的写在此单引号里
+FORMDATA2 = 'FORMDATA2' #tw开头的写在此单引号里
 
 def print_msg(msg,level=1):
     if level is 1:
