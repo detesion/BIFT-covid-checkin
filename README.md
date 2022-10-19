@@ -12,7 +12,7 @@ python的下载与环境配置
  * 第一步当然是先下载我的代码，点击这个界面的那个绿色的code按钮,然后选择Download zip这样子就下载完了。再解压一下，找到以py结尾的文件后就先放一边了等下再用。
  * **接下来是下载python，python网上有许多下载教程可以参考我就不再赘述。（其实是因为麻烦我不想写）**
  * 接下来我们需要打开终端，windows的可以同时按win和R键，在输入框中输入cmd即可打开。或者直接在开始菜单中直接搜索powershell，以管理员模式打开也是OK滴。
- * macos的直接cmommand加space就OK了。
+ * macos的直接cmommand加space就然后输入终端回车就OK了。
  * 然后在新弹出的窗口中输入以下代码
  * `pip install requests`    
  * 不行的话把代码中的‘pip’换成‘pip3’
